@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments and editor/OS files
+.venv/
+.DS_Store
+
+# Temporary audio conversion files
+tmp.abc
+tmp.wav

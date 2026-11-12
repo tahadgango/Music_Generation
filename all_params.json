@@ -1,0 +1,162 @@
+[
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 1024
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 512
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 256
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 128
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 64
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.005,
+  "embedding_dim": 256,
+  "hidden_size": 32
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 1024
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 512
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 256
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 128
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 64
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.001,
+  "embedding_dim": 256,
+  "hidden_size": 32
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0005,
+  "embedding_dim": 256,
+  "hidden_size": 256
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0005,
+  "embedding_dim": 256,
+  "hidden_size": 128
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0005,
+  "embedding_dim": 256,
+  "hidden_size": 64
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0005,
+  "embedding_dim": 256,
+  "hidden_size": 32
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0001,
+  "embedding_dim": 256,
+  "hidden_size": 256
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0001,
+  "embedding_dim": 256,
+  "hidden_size": 128
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0001,
+  "embedding_dim": 256,
+  "hidden_size": 64
+  },
+  {
+  "num_training_iterations": 3000,
+  "batch_size": 128,
+  "seq_length": 100,
+  "learning_rate": 0.0001,
+  "embedding_dim": 256,
+  "hidden_size": 32
+  }
+]

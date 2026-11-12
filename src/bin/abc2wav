@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -eu
+
+if [ "$#" -ne 1 ]; then
+    echo "Usage: abc2wav <file.abc>" >&2
+    exit 2
+fi
+
+abcfile=$1
+if [ ! -f "$abcfile" ]; then
+    echo "abc2wav: input file not found: $abcfile" >&2
+    exit 2
+fi
+
+for tool in abc2midi timidity; do
+    if ! command -v "$tool" >/dev/null 2>&1; then
+        echo "abc2wav: required command not found: $tool" >&2
+        exit 127
+    fi
+done
+
+suffix=${abcfile%.abc}
+wavfile="${suffix}.wav"
+tmpdir=$(mktemp -d "${TMPDIR:-/tmp}/abc2wav.XXXXXX")
+midfile="$tmpdir/output.mid"
+trap 'rm -rf "$tmpdir"' EXIT
+
+abc2midi "$abcfile" -o "$midfile"
+timidity "$midfile" -Ow -o "$wavfile"

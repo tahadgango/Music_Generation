@@ -1,0 +1,15 @@
+# Core numerical and model training dependencies
+matplotlib
+numpy
+pandas
+scipy
+torch
+
+# Notebook workflow and progress display
+ipython
+ipykernel
+jupyter
+tqdm
+
+# ABC parsing helper used by src/music/generation.py
+regex
